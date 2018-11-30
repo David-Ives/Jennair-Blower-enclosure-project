@@ -16,7 +16,7 @@ module sheet(width, length, thickness,
     } 
 }
 
-sheet(box_width,24,sheet_thickness,0,-4,0);
+sheet(box_width,25.5,sheet_thickness,0,-4,0);
 
 sheet(box_width,box_width + 2.5,sheet_thickness
 ,0,0,pole_hieght+sheet_thickness);
