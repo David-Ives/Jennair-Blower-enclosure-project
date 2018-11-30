@@ -1,6 +1,6 @@
 $fn = 30;
 box_width = 16;
-pole_hieght = 14;
+pole_hieght = 15.5;
 sheet_thickness = 3/4;
 pole_thickness = 1.5;
 wall_thickness = 1/4; 
@@ -28,7 +28,7 @@ sheet(pole_thickness,pole_thickness,pole_hieght,
 sheet(pole_thickness,pole_thickness,pole_hieght,
 box_width - pole_thickness,0,sheet_thickness);
 
-sheet(pole_thickness,pole_thickness,pole_hieght,
+% sheet(pole_thickness,pole_thickness,pole_hieght,
 box_width - pole_thickness,box_width - pole_thickness,sheet_thickness);
 
 sheet(pole_thickness,pole_thickness,pole_hieght,
@@ -40,7 +40,7 @@ sheet(pole_thickness,pole_thickness,pole_hieght,
     pole_thickness * 2,pole_thickness,
     0,pole_thickness,sheet_thickness);
    
-# sheet(box_width - pole_thickness * 2,
+% sheet(box_width - pole_thickness * 2,
     pole_thickness,pole_thickness,
     pole_thickness,box_width - pole_thickness,sheet_thickness);
     
@@ -82,12 +82,36 @@ box_width - pole_thickness,box_width - pole_thickness + 2.5,sheet_thickness);
 
 sheet(pole_thickness,pole_thickness,pole_hieght,
 0,box_width - pole_thickness + 2.5,sheet_thickness);
-
-# sheet(box_width,1,1,
+ 
+//filter holders
+color([0,0,1])
+sheet(box_width,1,1,
 0,box_width - pole_thickness + 1.5,sheet_thickness);
 
-//# sheet(1.5,1,1,box_width - pole_thickness,box_width - pole_thickness + 1.5, sheet_thickness);
+color([0,0,1])
+sheet(box_width,1,1,
+0,box_width - pole_thickness + 1.5,
+pole_hieght - 1/4);
 
+//color([0,0,1])
+% sheet(1,1,pole_hieght - 2,
+box_width - pole_thickness + .5,box_width - pole_thickness + 1.5,sheet_thickness + 1);
+
+
+//outer filter holders
+# sheet(box_width - pole_thickness * 2,
+    pole_thickness,pole_thickness,
+    pole_thickness,box_width - pole_thickness + 2.5,sheet_thickness);
+    
+# sheet(box_width - pole_thickness * 2,
+    pole_thickness,pole_thickness,
+    pole_thickness,box_width - pole_thickness + 2.5,pole_hieght - sheet_thickness);
+
+//filter
+color([0,1,0])
+ sheet(13.5,1,13.5,
+1.5,box_width - pole_thickness + 1.5,
+1.75);
   
 //the walls  
 % sheet(wall_thickness,box_width,
