@@ -124,11 +124,11 @@ sheet(13.5,1,13.5,
 1.75);
   
 //the walls  
- color([0,.5,0])
+ //color([0,.5,0])
 % sheet(wall_thickness,box_width,
     pole_hieght + (sheet_thickness * 2),
     -1 * wall_thickness,0,0);
- color([1,0,0])
+ //color([1,0,0])
 % sheet(wall_thickness,box_width + 2.5,
     pole_hieght + (sheet_thickness * 2),
     box_width,0,0);
