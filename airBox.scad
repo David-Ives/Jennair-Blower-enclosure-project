@@ -8,7 +8,7 @@ base_thickness = 25.5;
 holder_thickness = 3/4;
 holder_width = 1.25;
 filter_thickness = 3/4;
-filter_width = 13.69;
+filter_width = 13.75;
 
 
 //should probably just be 'wood' but too late lol
@@ -125,7 +125,8 @@ color([1,0,1]){
 //filter
 color([0,1,0])
 # sheet(filter_width,filter_thickness,filter_width,
-holder_width,box_width, sheet_thickness);
+holder_width - wall_thickness,box_width, sheet_thickness);
+
   
 //the walls  
  //color([0,.5,0])
