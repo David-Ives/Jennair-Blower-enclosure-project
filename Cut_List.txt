@@ -1,6 +1,6 @@
 A. about 4 feet of 3/4" thick, 16" wide sheet wood, 
 
-B. about 23 feet of '2 by 2'(1.5 by 1.5) wood
+B. about 21 feet of '2 by 2'(1.5 by 1.5) wood
 
 C. 36 inches of 1 by 1 inch thick wood
 
@@ -13,7 +13,7 @@ A. Top, 16" by 25.5", 0.75"
 	
 A. Bottom, 16" by 18.5", 0.75"
 		
-B. Vertical poles X 8, 1.5" by 1.5", 15.5" 
+B. Vertical poles X 8, 1.5" by 1.5", 14" 
 	
 B. Horizantal screw poles X 10, 13" by 1.5", 1.5"
 	
@@ -23,15 +23,15 @@ B. Filter poles(already accounted for above) X 2
 	
 C. Top and Bottom Filter holders X 2, 16" by 1", 1"
 
-D. Side filter holder, 1.25" by 1" by 13.5"
+D. Side filter holder, 1.25" by .75" by 14"
 
 B. Outer filter holders(already accounted for above) X 2
 	
 N/A Filter, 13.5" by 13.5", 1"( already have )
 
-Shorter wall, 16" by 17", 0.25
+E. Shorter wall, 16" by 17", 0.25
 	
-Longer wall, 18.5" by 17", 0.25
+E. Longer wall, 18.5" by 17", 0.25
 	
-Front wall, 16.5" by 16.5", 0.25 with a 5" diamiter circular cut
+E. Front wall, 16.5" by 16.5", 0.25 with a 5" diamiter circular cut
 
